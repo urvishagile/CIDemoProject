@@ -195,7 +195,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 64f680703d113c09f4efd9a5342151b22fb943e6 3147f3a36113a878e852c4601963ad2f87bd87633a9ff3f91c9b0e10e8ac660c\n\n";
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 64f680703d113c09f4efd9a5342151b22fb943e6 3147f3a36113a878e852c4601963ad2f87bd87633a9ff3f91c9b0e10e8ac660c\n/usr/local/bin/carthage copy-frameworks\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
